@@ -5,7 +5,7 @@ function RealDataApprox (datafile,xFinal,yInitial,flipx)
 % get data
 data = dlmread(datafile); % this is delim read. it is finding ' ' and '\n' in this case
 
-heightCheck = dlmread('sideline_heightCheck.txt');
+heightCheck = dlmread('../data/sideline_heightCheck.txt');
 
 x_sideline = heightCheck(:,1);
 y_sideline = heightCheck(:,2);

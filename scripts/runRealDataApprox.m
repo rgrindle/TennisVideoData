@@ -2,7 +2,7 @@
 close all;
 
 # ball machine
-RealDataApprox('BallMachine_Exp3_v2.txt',69,12.5/12,'flip');
+RealDataApprox('../data/BallMachine_Exp3_v2.txt',69,12.5/12,'flip');
 
 figure(1);
 title('Position Plot of Ball Machine');
@@ -15,7 +15,7 @@ figure(3);
 title('Angle Plot of Ball Machine');
 
 # Topspin
-RealDataApprox('Ryan_Topspin_Exp3_v2.txt',78-9,3,'dafs');
+RealDataApprox('../data/Ryan_Topspin_Exp3_v2.txt',78-9,3,'dafs');
 
 figure(4);
 title('Position Plot of Topspin Groundstoke by Ryan Grindle');
@@ -28,7 +28,7 @@ figure(6);
 title('Angle Plot of a Topspin Groundstoke by Ryan Grindle');
 
 # Slice
-RealDataApprox('Ryan_Slice_Exp3_v2.txt',78-11,3,'f');
+RealDataApprox('../data/Ryan_Slice_Exp3_v2.txt',78-11,3,'f');
 
 figure(7);
 title('Position Plot of a Slice Groundstoke by Ryan Grindle');
